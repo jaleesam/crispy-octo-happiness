@@ -8,3 +8,22 @@ html{
      background: #333a40;
      color: white;
  }
+
+ ul{
+     margin:0;
+     padding:0;
+ }
+ #name{
+     background:red;
+ }
+
+ .product{
+     border: 1px solid grey;
+     width: 200px;
+     margin: 5px;
+     padding: 5px;
+ }
+
+ img{
+     max-width: 100%;
+}
