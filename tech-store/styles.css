@@ -29,6 +29,10 @@ html{
      color: inherit;
  }
 
+ a:hover{
+     color: #0e69e9;
+ }
+
  header li{
     display: inline;
  }
@@ -68,4 +72,9 @@ html{
 .button{
     padding: 10px; 
     display: inline-block;
+}
+
+.button:last-of-type{
+    background: #0e69e9;
+    color: white;   
 }
