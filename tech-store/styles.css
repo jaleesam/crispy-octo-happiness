@@ -87,5 +87,7 @@ html{
 
 .product-detail img{
    max-width: 50%;
-   float: none;
+   float: left;
 }
+
+
