@@ -47,7 +47,7 @@ html{
     width:270px;
     display:inline-block;
     vertical-align: top;
-    position: sticky;
+    
  }
 
  header h1, nav {
@@ -91,9 +91,8 @@ html{
    float: left;
 }
 
-#position {
-    top: 10px;
-    left: 10px;
-    
+#position{
+    top: 4px;
+    left: 10px;   
 }
 
