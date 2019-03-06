@@ -52,12 +52,16 @@
         <h2>Contact Us:</h2>
         <form>
 
-            <div>
+            <div class="inline">
                 <label for="name">Name:</label><input type="text" placeholder="Enter your name" id="name" name="name">
-                <label for="email">Email:</label> <input type="text" placeholder="Enter your email" id="email"
+            </div>   
+            <div class="inline">   
+                    <label for="email">Email:</label> <input type="text" placeholder="Enter your email" id="email"
                     name="email">
-                <label for="message"> Message:</label><textarea cols="30" rows="5" id="message"
-                    name="message"></textarea>
+            </div>
+            <div class="inline">
+                    <label for="message"> Message:</label><textarea cols="30" rows="5" id="message"
+                    name="message"></textarea>  
             </div>
             <!-- <div>
                 <label for="subject">Subject:</label>
@@ -82,7 +86,7 @@
                 <label for="subject">Subject:</label>
                 <input type="text" list="subjects" id="subject" placeholder="Enter your subject">
             </div>
-            <datalist id="subjects">
+            <datalist id="subjects" class="inline">
                 <option value="returns">
                 <option value="faulty item">
                 <option value="delivery">
