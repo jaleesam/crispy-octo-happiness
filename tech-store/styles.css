@@ -12,7 +12,7 @@ html{
      background: #333a40;
      color: white;
      line-height: 20px;
-     padding-top: 20px;
+     padding: 20px, 10px;
  }
 
  ul{
@@ -59,6 +59,10 @@ html{
 
  header h1, nav {
     display: inline-block;
+ }
+
+ header h1 {
+     width: 60%;
  }
 
  .product{
@@ -119,6 +123,12 @@ form > div {
 input[type="text"], input[type="email"], textarea {
     padding: 10px;
     width: 400px;
+}
+
+/* Table */
+
+caption {
+    padding: 10px;
 }
 
 table {
