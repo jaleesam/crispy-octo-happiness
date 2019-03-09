@@ -144,12 +144,3 @@ tbody {
     background:  rgba(14, 66, 100, 0.192);
 }
 
-/* 0001 */
-header h1 {
-    color: red;
-    text-decoration: underline;
-}
-
-h1{
-    color: purple;
-}
