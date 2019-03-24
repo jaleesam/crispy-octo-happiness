@@ -2,17 +2,22 @@ html{
     background: #f7f7f7;
  }
  body{
-    max-width:80wv;
+    /* max-width:80wv; */
     margin: 0 auto;
     font-family: 'Barlow', sans-serif;
     background: white;
-    color: rgb(49, 46, 46)
+    color: rgb(49, 46, 46);
+    text-align: center;
  }
  header, footer{
      background: #333a40;
      color: white;
      line-height: 20px;
      padding: 20px, 10px;
+ }
+  
+ input[type="search"] {
+     width: 100%;
  }
 
  ul{
@@ -44,36 +49,36 @@ html{
     display: inline;
  }
 
- main{
-     /* target / context = result */
-     /* 680/1000 = 0.68 */
+ /* main{
     width: 68%;
     display:inline-block;
     padding: 10px;
- }
+ } */
 
- aside{
+ /* aside{
     width: 27%;
     display:inline-block;
     vertical-align: top;
     
- }
+ } */
 
  header h1, nav {
     display: inline-block;
  }
 
  header h1 {
-     width: 60%;
+     /* width: 60%; */
+     width: 100%;
  }
 
  .product{
      box-sizing: border-box;
      border: 1px solid grey;
-     width: 30%;
+     /* width: 30%; */
+     width: 100%;
      margin: 5px;
      padding: 5px;
-     display: inline-block;
+     /* display: inline-block; */
      text-align: center;
  }
 
@@ -144,10 +149,4 @@ thead {
 
 tbody {
     background:  rgba(14, 66, 100, 0.192);
-}
-
-@media (min-width: 600px) {
-    li {
-        color: red;
-    }
 }
